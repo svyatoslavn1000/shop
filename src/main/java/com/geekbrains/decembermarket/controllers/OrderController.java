@@ -5,7 +5,9 @@ import com.geekbrains.decembermarket.entites.Category;
 import com.geekbrains.decembermarket.entites.Order;
 import com.geekbrains.decembermarket.entites.Product;
 import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.services.CategoryService;
 import com.geekbrains.decembermarket.services.OrderService;
+import com.geekbrains.decembermarket.services.ProductService;
 import com.geekbrains.decembermarket.services.UserService;
 import com.geekbrains.decembermarket.utils.ProductFilter;
 import org.springframework.data.domain.Page;
@@ -25,13 +27,17 @@ import java.util.Map;
 @Controller
 @RequestMapping("/orders")
 public class OrderController {
-    private UserService userService;
-    private OrderService orderService;
-    private Cart cart;
+    private final UserService userService;
+    private final OrderService orderService;
+    private final ProductService productService;
+    private final CategoryService categoryService;
+    private final Cart cart;
 
-    public OrderController(UserService userService, OrderService orderService, Cart cart) {
+    public OrderController(UserService userService, OrderService orderService, ProductService productService, CategoryService categoryService, Cart cart) {
         this.userService = userService;
         this.orderService = orderService;
+        this.productService = productService;
+        this.categoryService = categoryService;
         this.cart = cart;
     }
 
@@ -84,4 +90,5 @@ public class OrderController {
         model.addAttribute("page", page);
 
         return "index";
+    }
 }
