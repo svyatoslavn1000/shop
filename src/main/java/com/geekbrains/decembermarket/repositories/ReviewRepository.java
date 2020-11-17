@@ -1,8 +1,7 @@
 package com.geekbrains.decembermarket.repositories;
 
-import com.geekbrains.decembermarket.entites.OrderItem;
-import com.geekbrains.decembermarket.entites.Review;
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.Review;
+import com.geekbrains.decembermarket.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
