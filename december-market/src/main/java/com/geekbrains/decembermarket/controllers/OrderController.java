@@ -1,8 +1,8 @@
 package com.geekbrains.decembermarket.controllers;
 
 import com.geekbrains.decembermarket.beans.Cart;
-import com.geekbrains.decembermarket.entites.Order;
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.Order;
+import com.geekbrains.decembermarket.entities.User;
 import com.geekbrains.decembermarket.services.OrderService;
 import com.geekbrains.decembermarket.services.UserService;
 import org.springframework.stereotype.Controller;

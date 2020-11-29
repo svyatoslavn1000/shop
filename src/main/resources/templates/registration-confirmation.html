@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<link rel="stylesheet" th:href="@{../static/css/stylesheet.css}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<head>
+	<title>Подтверждение регистрации</title>
+</head>
+
+<body>
+<div th:replace="~{navigation :: navigation(Home)}" />
+	<h2>User registered successfully!</h2>
+	<hr>
+	<a th:href="@{/login}"> Логин нового пользователя</a>
+</body>
+</html>

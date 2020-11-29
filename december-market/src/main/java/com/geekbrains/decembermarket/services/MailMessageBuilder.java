@@ -1,6 +1,6 @@
 package com.geekbrains.decembermarket.services;
 
-import com.geekbrains.decembermarket.entites.Order;
+import com.geekbrains.decembermarket.entities.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;

@@ -1,4 +1,4 @@
-package com.geekbrains.decembermarket.entites;
+package com.geekbrains.decembermarket.entities;
 
 import java.math.BigDecimal;
 

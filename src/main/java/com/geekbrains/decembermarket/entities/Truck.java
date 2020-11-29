@@ -1,12 +1,10 @@
-package com.geekbrains.decembermarket.entites;
+package com.geekbrains.decembermarket.entities;
 
 import com.sun.istack.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.Collection;
-import java.util.List;
 
 @Entity
 @Data

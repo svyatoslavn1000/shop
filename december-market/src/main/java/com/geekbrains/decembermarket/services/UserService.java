@@ -1,8 +1,8 @@
 package com.geekbrains.decembermarket.services;
 
-import com.geekbrains.decembermarket.entites.Role;
-import com.geekbrains.decembermarket.entites.User;
-import com.geekbrains.decembermarket.repositories.RoleRepository;
+import com.geekbrains.decembermarket.entities.Role;
+import com.geekbrains.decembermarket.entities.User;
+import com.geekbrains.decembermarket.repositories.RolesRepository;
 import com.geekbrains.decembermarket.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;

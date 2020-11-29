@@ -1,11 +1,10 @@
-package com.geekbrains.decembermarket.entites;
+package com.geekbrains.decembermarket.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 

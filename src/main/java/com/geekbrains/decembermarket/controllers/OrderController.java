@@ -1,10 +1,10 @@
 package com.geekbrains.decembermarket.controllers;
 
 import com.geekbrains.decembermarket.beans.Cart;
-import com.geekbrains.decembermarket.entites.Category;
-import com.geekbrains.decembermarket.entites.Order;
-import com.geekbrains.decembermarket.entites.Product;
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.Category;
+import com.geekbrains.decembermarket.entities.Order;
+import com.geekbrains.decembermarket.entities.Product;
+import com.geekbrains.decembermarket.entities.User;
 import com.geekbrains.decembermarket.services.CategoryService;
 import com.geekbrains.decembermarket.services.OrderService;
 import com.geekbrains.decembermarket.services.ProductService;

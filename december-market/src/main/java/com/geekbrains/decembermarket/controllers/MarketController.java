@@ -1,6 +1,6 @@
 package com.geekbrains.decembermarket.controllers;
 
-import com.geekbrains.decembermarket.entites.*;
+import com.geekbrains.decembermarket.entities.*;
 import com.geekbrains.decembermarket.repositories.OrderItemRepository;
 import com.geekbrains.decembermarket.services.CategoryService;
 import com.geekbrains.decembermarket.services.OrderService;

@@ -1,7 +1,7 @@
 package com.geekbrains.decembermarket.services;
 
-import com.geekbrains.decembermarket.entites.Review;
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.Review;
+import com.geekbrains.decembermarket.entities.User;
 import com.geekbrains.decembermarket.repositories.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
