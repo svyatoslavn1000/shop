@@ -51,7 +51,7 @@ public class PayPalController {
     @GetMapping("/buy/{orderId}")
     public String buy(Model model, @PathVariable(name = "orderId") Long orderId, Principal principal) {
         try {
-            com.geekbrains.decembermarket.entites.Order order = orderService.findById(orderId);
+            com.geekbrains.decembermarket.entities.Order order = orderService.findById(orderId);
 
             Payer payer = new Payer();
             payer.setPaymentMethod("paypal");

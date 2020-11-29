@@ -1,30 +1,20 @@
 package com.geekbrains.decembermarket.controllers;
 
-import com.geekbrains.decembermarket.entites.*;
-import com.geekbrains.decembermarket.repositories.OrderItemRepository;
+import com.geekbrains.decembermarket.entities.*;
 import com.geekbrains.decembermarket.services.CategoryService;
-import com.geekbrains.decembermarket.services.OrderService;
 import com.geekbrains.decembermarket.services.ProductService;
 import com.geekbrains.decembermarket.services.UserService;
-import com.geekbrains.decembermarket.beans.Cart;
 import com.geekbrains.decembermarket.utils.ProductFilter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.ApplicationContext;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpCookie;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.security.Principal;
 import java.util.List;
 import java.util.Map;

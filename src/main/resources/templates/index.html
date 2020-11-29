@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>December Market</title>
+    <title>Market</title>
     <link rel="stylesheet" th:href="@{../static/css/stylesheet.css}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@
 <div class="container">
     <div th:replace="~{navigation :: navigation(Home)}" />
 
-    <h1>December Market</h1>
+    <h1>Market</h1>
 
     <h3 th:text="#{filters}"></h3>
     <form th:action="@{/}" method="GET">

@@ -1,6 +1,6 @@
 package com.geekbrains.decembermarket.services;
 
-import com.geekbrains.decembermarket.entites.Order;
+import com.geekbrains.decembermarket.entities.Order;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

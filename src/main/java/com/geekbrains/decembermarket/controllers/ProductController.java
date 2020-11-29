@@ -1,9 +1,9 @@
 package com.geekbrains.decembermarket.controllers;
 
-import com.geekbrains.decembermarket.entites.Category;
-import com.geekbrains.decembermarket.entites.Product;
-import com.geekbrains.decembermarket.entites.Review;
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.Category;
+import com.geekbrains.decembermarket.entities.Product;
+import com.geekbrains.decembermarket.entities.Review;
+import com.geekbrains.decembermarket.entities.User;
 import com.geekbrains.decembermarket.services.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,7 +1,7 @@
 package com.geekbrains.decembermarket.services;
 
 
-import com.geekbrains.decembermarket.entites.Category;
+import com.geekbrains.decembermarket.entities.Category;
 import com.geekbrains.decembermarket.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

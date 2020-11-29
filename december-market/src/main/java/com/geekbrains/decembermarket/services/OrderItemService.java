@@ -1,6 +1,6 @@
 package com.geekbrains.decembermarket.services;
 
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.User;
 import com.geekbrains.decembermarket.repositories.OrderItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.geekbrains.decembermarket.beans;
 
-import com.geekbrains.decembermarket.entites.OrderItem;
-import com.geekbrains.decembermarket.entites.Product;
+import com.geekbrains.decembermarket.entities.OrderItem;
+import com.geekbrains.decembermarket.entities.Product;
 import lombok.Data;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;

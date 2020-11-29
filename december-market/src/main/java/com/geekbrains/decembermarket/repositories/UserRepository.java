@@ -1,7 +1,7 @@
 package com.geekbrains.decembermarket.repositories;
 
 
-import com.geekbrains.decembermarket.entites.User;
+import com.geekbrains.decembermarket.entities.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

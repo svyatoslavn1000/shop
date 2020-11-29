@@ -1,6 +1,6 @@
 package com.geekbrains.decembermarket.utils;
 
-import com.geekbrains.decembermarket.entites.Product;
+import com.geekbrains.decembermarket.entities.Product;
 import com.geekbrains.decembermarket.repositories.specifications.ProductSpecifications;
 import lombok.Getter;
 import org.springframework.data.jpa.domain.Specification;
